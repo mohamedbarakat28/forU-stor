@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/stule_conect.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- icons -->
+	<link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<title>For U</title>
+</head>
+<body>
+	<section id="header">
+        <a href="#" class="logo"><img src="images/FOR-U-اخر-مرة.png"></a>
+        <div class="list">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="ContactSection.html">Contact</a></li>
+                <li><a href="loginform.html">Login</a></li>
+                <li><a href="cart.html" id="bag"><i class="far fa-shopping-bag"></i></a></li>
+				<div>
+                    <input type="checkbox" id="dark" onclick="night_mood_contact()">
+                    <label for="dark"></label>
+                </div>
+            </ul>
+        </div>
+		
+    </section>
+	<div class="container">
+		<main class="row">
+			<!--  *******   Left Section (Column) Starts   *******  -->
+			<section class="col left">
+				<!--  *******   Title Starts   *******  -->
+				<div class="contactTitle">
+					<h2>Contact Us</h2>
+					<p>Send Ss About FOR U Website</p>
+				</div>
+				<!--  *******   Title Ends   *******  -->
+				<!--  *******   Contact Info Starts   *******  -->
+				<div class="contactInfo">
+					
+					<div class="iconsclass">
+						<div class="icon">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<div class="details">
+							<span>Phone</span>
+							<span>345-837-7364</span>
+						</div>
+					</div>
+					<div class="iconsclass">
+						<div class="icon">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="details">
+							<span>Email</span>
+							<span>for_u_stor@gmail.com</span>
+						</div>
+					</div>
+					<div class="iconsclass">
+						<div class="icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="details">
+							<span>Location</span>
+							<span>Eljamili Street, Y Road, San Fransisco</span>
+						</div>
+					</div>
+				</div>
+				<!--  *******   Contact Info Ends   *******  -->
+				<!--  *******   Social Media Starts   *******  -->
+				<div class="socialMedia">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<!--  *******   Social Media Ends   *******  -->
+			</section>
+			<!--  *******   Left Section (Column) Ends   *******  -->
+			<!--  *******   Right Section (Column) Starts   *******  -->
+			<section class="col right">
+				
+				<!--  *******   Form Starts   *******  -->
+				<form class="messageForm">
+					
+					<div class="inputsfild halfWidth">
+						<input type="text" name="" required="required">
+						<label>Enter Your Name</label>
+					</div>
+					<div class="inputsfild halfWidth">
+						<input type="email" name="" required="required">
+						<label>Enter Your Email</label>
+					</div>
+					<div class="inputsfild fullWidth">
+						<input type="text" name="" required="required">
+						<label>About What </label>
+					</div>
+					<div class="inputsfild fullWidth">
+						<textarea required="required"></textarea>
+						<label>Tell Us About Your View In Ouer Website</label>
+					</div>
+					<div class="inputsfild fullWidth">
+						<button>Send</button>
+					</div>
+				</form>
+				<!--  *******   Form Ends   *******  -->
+			</section>
+			<!--  *******   Right Section (Column) Ends   *******  -->
+		</main>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

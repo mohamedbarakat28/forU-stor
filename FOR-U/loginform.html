@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For U</title>
+    <link rel="stylesheet" href="css/loginform.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <a href="#" class="logo"><img src="images/FOR-U-اخر-مرة.png"></a>
+        <div class="list">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ContactSection.html">Contact</a></li>
+                <li><a class="active" href="loginform.html">Login</a></li>
+                <li><a href="cart.html" id="bag"><i class="far fa-shopping-bag"></i></a></li>
+                <div>
+                    <input type="checkbox" id="dark" onclick="night_mood_login()">
+                    <label for="dark"></label>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <div class="big_container">
+        <img class="connect_img" src="images/Mobile login-pana.png">
+        <div class="container">
+            <input type="checkbox" id="check" >
+            <div class="signup">
+                <form  action="index.html">
+                <label for="check"  >Sign Up</label>
+                <input type="text" name="txt"   required placeholder="Enter Your Name">
+                <input type="password" name="pass"   required placeholder="Enter Your Password">
+                <input type="email" name="mail"   required placeholder="Enter Your Emsil">
+                <button type="submit">Sign Up</a></button>
+                </form>
+            </div>
+
+            <!--login-->
+            <div class="loging">
+                <form action="index.html">
+                <label for="check"  >Login</label>
+                <input type="email"  name="mail2"   required placeholder="Enter Your Email">
+                <input type="password" name="pass2"   required placeholder="Enter Your Password">
+                <button type="submit"  name="btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
